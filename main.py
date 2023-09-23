@@ -77,7 +77,7 @@ ax.tick_params(axis='x', rotation=15)  # Rotate x-axis labels for better readabi
 canvas = FigureCanvasTkAgg(fig, master=tab3)
 canvas.get_tk_widget().pack()
 
-# Tab 3: Inferences
+# Tab 4: Inferences
 inferences_label = tk.Label(tab4, text="User Inferences")
 inferences_label.pack()
 
